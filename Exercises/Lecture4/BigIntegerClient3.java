@@ -13,7 +13,6 @@ public class BigIntegerClient3 {
             PrintWriter out = new PrintWriter(sock.getOutputStream(), true);
             out.println(clientName);
 
-            /*  */
             InputStream in = sock.getInputStream();
             BufferedReader bin = new BufferedReader(new InputStreamReader(in));
 
